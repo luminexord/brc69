@@ -83,14 +83,10 @@ Down belove we propose a versatile compile logic.
 */
 
 // EDIT
-const collectionJsonTxId = '<insert here the deploy inscription transaction ID>';
-const previewTxId =  `` // insert here the Recursive inscription TX ID of the pre-reveal image (if any)
+const collectionJsonUrl = '/content/<deploy inscription id>';
+const previewUrl = `/content/<preview inscription id>` // if preview available
 const imageRendering = 'auto' // or pixelated
-const renderSize = { width: 500, height: 500 }; // update the size of your final images
-
-// Computed
-const previewUrl = `/content/${previewTxId}i0`
-const collectionJsonUrl = `/content/${collectionJsonTxId}i0`;
+const renderSize = { width: 500, height: 500 }; // select image render size
 
 async function loadImage (url) {
     return new Promise((resolve, reject) => {
@@ -184,7 +180,6 @@ async function createInscriptionHtml() {
 window.onload = function() {
     createInscriptionHtml();
 }
-
 
 ``````
 
