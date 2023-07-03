@@ -84,7 +84,7 @@ Down belove we propose a versatile compile logic.
 
 // EDIT
 const collectionJsonTxId = '<insert here the deploy inscription transaction ID>';
-const previewTxId = `` // insert here the Recursive inscription TX ID of the pre-reveal image (if any)
+const previewTxId =  `` // insert here the Recursive inscription TX ID of the pre-reveal image (if any)
 const imageRendering = 'auto' // or pixelated
 const renderSize = { width: 500, height: 500 }; // update the size of your final images
 
@@ -184,6 +184,8 @@ async function createInscriptionHtml() {
 window.onload = function() {
     createInscriptionHtml();
 }
+
+
 ``````
 
 ### Mint BRC69
