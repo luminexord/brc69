@@ -1,3 +1,5 @@
+![BANNER_BRC69c](https://github.com/luminexord/brc69/assets/23469584/47753e6c-7654-432a-93d7-e79fee5f8128)
+
 # BRC69
 
 We propose a new standard for Ordinals Collections that utilize Recursive Inscription to optimize the costs of inscribing on Bitcoin using the Ordinals protocol. Additionally, this standard paves the way for more intriguing on-chain features, such as pre-reveal collection launching and on-chain reveals. This is accomplished by automatically and seamlessly rendering images on the Ordinals explorer, without the need for additional action.
