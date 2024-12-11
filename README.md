@@ -18,7 +18,7 @@ We propose a new standard for launching Non-Fungible Ordinals Collection. This s
 2. Inscribing the BRC69 collection deployment JSON
 3. Inscribing the BRC69 assets with the mint operation
 
-All these processes can be conducted without needing an external indexer, as long as the collection creators release the official list of inscriptions for their collections, as currently required. Moreover, the images will be automatically rendered on all front-end interfaces that have already implemented [Recursive Inscriptions](https://github.com/ordinals/ord/pull/2167), eliminating the need for additional steps.
+All these processes can be conducted without needing an external indexer, as long as the collection creators release the official list of inscriptions for their collections, as currently required. Moreover, the images will be automatically rendered on all front-end interfaces that have already implemented [Recursive Inscriptions](https://luminex.gitbook.io/luminex/ordinals/recursive-inscriptions), eliminating the need for additional steps.
 
 ---
 
@@ -42,8 +42,8 @@ The Deploy operation is a JSON/Text inscription that contains general informatio
    "compilerInfo": {
       "preview": "",  // optional preview inscription id
       "renderSize": {
-         "width": 750,
-         "height": 750
+         "width": 750, // width dimension rendered
+         "height": 750 // heigh dimension rendered
       },
       "imageRendering": "auto"  // or "pixelated"
    },
